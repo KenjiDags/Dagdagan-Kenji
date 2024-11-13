@@ -70,8 +70,25 @@ strong {
     color: var(--text-dark-strong);
 }
 
-img {
-    width: 100%;
+.Survey {
+    width: 200px;
+    length: 200px;
+}
+
+.Tp {
+    width: 200px;
+    length: 200px;op: 200px;
+}
+
+.TDP {
+    width: 200px;
+    length: 200px;
+}
+
+.PLP {
+    width: 400px;
+    length: 400px;
+    right: 50px;
 }
 
 .container {
