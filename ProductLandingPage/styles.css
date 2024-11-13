@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding-left: 13px;
     background-color: #f4f4f4;
     color: #333;
     display: flex;
@@ -11,32 +11,52 @@ body {
   header {
     background-color: #ffffff;
     color: #0a0909;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     position: fixed;
+    width: 89.5%;
+    top: 0px;
   }
 
   .logo > P{
     font-weight: bold;
     font-size: xx-large;
     font-family: 'Lato', sans-serif;
+    padding-left: 600px;
+    padding-right: 500px;
+    width: 500px;
+  }
+
+  .logo > img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 15px;
   }
   
   nav {
     background-color: #555;
-    padding: 10px;
-    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    left: 0px;
   }
   
   nav a {
     color: #fff;
     text-decoration: none;
-    padding: 8px 16px;
+    padding: 0px 100px;
     margin: 0 8px;
+  }
+
+  nav a:hover {
+    text-shadow: 2px 2px 10px #0f0e0f;
+    filter: drop-shadow(color=#000000, offx=2, offy=2);
   }
   
   main {
-    padding: 20px;
+    padding-top: 30px;
   }
   
   section {
